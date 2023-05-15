@@ -1,0 +1,90 @@
+:root {
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
+}
+
+.log-painel {
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.281);
+    margin: 14.3rem auto;
+    width: 400px;
+}
+
+.log-titulo {
+    font-size: 2rem;
+    padding: 2rem 2rem 1.3rem;
+    text-align: center;
+}
+
+.log-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.1rem;
+    padding: 1.5rem 1.5rem 5px;
+}
+
+.log-usuario, .log-senha, .cad-email, .cad-data {
+    margin: 20px 0px 5px;
+}
+
+.log-iusuario, .log-isenha, .cad-iemail, .cad-idata {
+    border: 1px solid;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.log-info {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Cadastro */
+
+.cad-painel {
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.281);
+    margin: 7rem auto;
+    width: 400px;
+}
+
+.botao {
+    background: linear-gradient(to right, #FDC830, #F37335);
+    border: none;
+    border-radius: 10px;
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    margin: 3rem auto;
+    width: 200px;
+    height: 40px;
+}
+
+.botao:hover {
+    background: linear-gradient(to right, #e0b02b, #dd692f);
+    border: 2px solid;
+    cursor: pointer;
+}
+
+.botao:active {
+    background: linear-gradient(to right, #b38c23, #a85024);
+}
+
+.rodape {
+    text-align: center;
+}
+
+@media screen and (max-width: 420px ) {
+    .log-painel {
+        width: 95%;
+    }
+    .botao {
+        width: 50%;
+    }
+}

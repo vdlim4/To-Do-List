@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet"> 
+    <title>ToDoList - Home</title>
+</head>
+<body>
+    <header class="cabecalho">
+        
+    </header>
+    <main>
+        <div class="menu-painel">
+            <h1 class="menu-titulo">Inserir tarefas</h1>
+            <div class="menu-tarefas">
+                <p class="menu-texto">Tarefa</p>
+                <input type="text" name="" class="menu-input txttit">
+                <p class="menu-texto">Descrição</p>
+                <input type="text" name="" class="menu-input txtdesc">
+                <p class="menu-texto">Data limite</p>
+                <input type="date" name="" class="menu-input txtdata">
+                <p class="menu-texto">Importância</p>
+                <p>
+                    <label for="menu-ucheck">
+                        <input type="radio" name="radio" id="menu-ucheck" checked>Urgente
+                    </label>
+                    <label for="menu-ccheck">
+                        <input type="radio" name="radio" id="menu-ccheck">Comum
+                    </label>
+                </p>
+                <p class="menu-texto">Selecione uma cor</p>
+                <p>
+                    <label for="menu-cor">
+                        <input type="color" name="" id="menu-qcor">
+                    </label>
+                </p>
+                <input type="button" value="Adicionar" class="menu-botao" onclick="adicionar()">
+            </div>
+        </div>
+        <div class="conteudo">
+            <div class="cont-quadro cont-urgente">
+                <h2 class="titulo-urg">Urgente</h2>
+
+            </div>
+            <div class="cont-quadro cont-comum">
+                <h2 class="titulo-com">Comum</h2>
+                <div class="cont-tarefa">
+                    <p class="tarefa-tit">Exemplo de Tarefa</p>
+                    <p class="tarefa-desc">Descrição da tarefa</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./Script/script.js"></script>
+</body> 
+</html>
